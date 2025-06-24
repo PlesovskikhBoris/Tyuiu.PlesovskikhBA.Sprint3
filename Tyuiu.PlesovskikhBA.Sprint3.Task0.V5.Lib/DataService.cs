@@ -5,12 +5,14 @@ namespace Tyuiu.PlesovskikhBA.Sprint3.Task0.V5.Lib
     {
         public double GetSumSeries(int startValue, int stopValue)
         {
-            double res = 0;
-            for (int i = startValue; i <= stopValue; i++)
+            double sumSeries = 0;
+            int i;
+            for (i = startValue; i <= stopValue; i++)
             {
-                res += Math.Pow(1 / Math.Sin(i), 2);
+                sumSeries = sumSeries + (Math.Pow((1 / (Math.Sin(i))), 2));
+
             }
-            return Math.Round(res, 3);
+            return Math.Round(sumSeries, 3);
         }
     }
 }
