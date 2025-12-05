@@ -9,10 +9,10 @@ namespace Tyuiu.PlesovskikhBA.Sprint3.Task0.V5.Lib
             int i;
             for (i = startValue; i <= stopValue; i++)
             {
-                sumSeries = sumSeries + (Math.Pow((1 / (Math.Sin(i))), 2));
-
+                sumSeries = sumSeries + Math.Pow((1 / Math.Sin(i)), 2);
             }
             return Math.Round(sumSeries, 3);
+
         }
     }
 }
