@@ -10,7 +10,7 @@ namespace Tyuiu.PlesovskikhBA.Sprint3.Task0.V5
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-
+            Console.OutputEncoding = Encoding.UTF8;
             Console.Title = "Спринт #3 | Выполнил: Плесовских Б.А. | СМАРТб-24-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
