@@ -1,8 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Tyuiu.PlesovskikhBA.Sprint3.Task0.V5.Lib;
+﻿using Tyuiu.PlesovskikhBA.Sprint3.Task0.V5.Lib;
 namespace Tyuiu.PlesovskikhBA.Sprint3.Task0.V5
 {
     class Programm
@@ -10,14 +6,14 @@ namespace Tyuiu.PlesovskikhBA.Sprint3.Task0.V5
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-            Console.OutputEncoding = Encoding.UTF8;
-            Console.Title = "Спринт #3 | Выполнил: Плесовских Б.А. | СМАРТб-24-1";
+
+            Console.Title = "Спринт #3 | Выполнил: Плесовских Б. А. | СМАРТб-24-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
             Console.WriteLine("* Оператор цикла for                                                      *");
             Console.WriteLine("* Задание 0                                                               *");
             Console.WriteLine("* Вариант #5                                                              *");
-            Console.WriteLine("* Выполнил: Плесовских Б.А. | СМАРТб-24-1                                 *");
+            Console.WriteLine("* Выполнила: Плесовских Борис Александрович | СМАРТб-24-1                 *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Спринт #3                                                               *");
