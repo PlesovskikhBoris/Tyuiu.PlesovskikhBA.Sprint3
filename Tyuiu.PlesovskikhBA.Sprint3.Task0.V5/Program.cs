@@ -15,7 +15,7 @@ namespace Tyuiu.PlesovskikhBA.Sprint3.Task0.V5
             Console.WriteLine("* Вариант #5                                                              *");
             Console.WriteLine("* Выполнила: Плесовских Борис Александрович | СМАРТб-24-1                 *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* УСЛОВИЕ:                                                                *");
+            Console.WriteLine("* УСЛОВИЕ:                                                                 *");
             Console.WriteLine("* Спринт #3                                                               *");
             Console.WriteLine("* Написать программу используя цикл for, которая вычисляет сумму ряда     *");
             Console.WriteLine("*                                                                         *");
